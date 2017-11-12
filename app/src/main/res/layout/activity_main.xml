@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.journaldev.preferencias.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:layout_x="1dp"
+        android:layout_y="157dp"
+        android:text="DNI"
+        android:textSize="18sp"/>
+
+    <RadioGroup
+        android:id="@+id/sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="350dp">
+
+
+        <RadioButton
+            android:id="@+id/mujer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_x="22dp"
+            android:layout_y="267dp"
+            android:checked="true"
+            android:text="Mujer"/>
+
+        <RadioButton
+            android:id="@+id/hombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_x="22dp"
+            android:layout_y="299dp"
+            android:text="Hombre"/>
+
+
+        </RadioGroup>
+
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="228dp"
+        android:layout_y="356dp"
+        android:text="Enviar"/>
+
+    <EditText
+        android:id="@+id/dni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="192dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="88dp"/>
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="71dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:layout_x="2dp"
+        android:layout_y="256dp"
+        android:text="Fecha"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="294dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="165dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="110dp"
+        android:layout_height="33dp"
+        android:layout_x="5dp"
+        android:layout_y="39dp"
+        android:text="Nombre"
+        android:textSize="18sp"/>
+
+</android.widget.AbsoluteLayout>
